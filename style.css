@@ -1,0 +1,55 @@
+h1,p,label{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0 auto;
+  max-width: 500px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #515151;
+    letter-spacing: 1px;
+}
+
+input,textarea,button{
+    max-width: 400px;
+    outline: none;
+    border: solid 1px #e1e1e1;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.seletor-planos{
+  display: flex;
+  gap:  20px;
+}
+
+
+
+.seletor-planos label{
+  background-color: #d1d1d1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.seletor-planos label h1{
+  color: rgb(81, 81, 155);
+}
+
+.bloco{
+  display: block;
+  width: 100px;
+  height: 100px;
+  
+}
